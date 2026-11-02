@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS users (id TEXT PRIMARY KEY, name TEXT NOT NULL, email TEXT NOT NULL UNIQUE, password_salt TEXT, password_hash TEXT, google_sub TEXT UNIQUE, role TEXT NOT NULL DEFAULT 'customer' CHECK(role IN ('customer','admin')), created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS sessions (token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE, csrf TEXT NOT NULL, expires INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS tours (id TEXT PRIMARY KEY, data TEXT NOT NULL, active INTEGER NOT NULL DEFAULT 1, created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS posts (id TEXT PRIMARY KEY, data TEXT NOT NULL, active INTEGER NOT NULL DEFAULT 1);
+CREATE TABLE IF NOT EXISTS favorites (user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE, tour_id TEXT NOT NULL REFERENCES tours(id), PRIMARY KEY(user_id,tour_id));
+CREATE TABLE IF NOT EXISTS bookings (id TEXT PRIMARY KEY, ref TEXT UNIQUE NOT NULL, user_id TEXT REFERENCES users(id) ON DELETE SET NULL, tour_id TEXT NOT NULL REFERENCES tours(id), name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT NOT NULL, travel_date TEXT NOT NULL, adults INTEGER NOT NULL, children INTEGER NOT NULL, note TEXT NOT NULL DEFAULT '', total_usd INTEGER NOT NULL, method TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'pending', payment_status TEXT NOT NULL DEFAULT 'unpaid', created_at TEXT NOT NULL, guest_payment_hash TEXT);
+CREATE TABLE IF NOT EXISTS inquiries (id TEXT PRIMARY KEY, kind TEXT NOT NULL, name TEXT NOT NULL, email TEXT NOT NULL, message TEXT NOT NULL, service TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS newsletter (email TEXT PRIMARY KEY, created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS oauth_states (state_hash TEXT PRIMARY KEY, expires INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS password_resets (token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE, expires INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS rate_limits (key TEXT PRIMARY KEY, window_start INTEGER NOT NULL, hits INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS admin_audit (id TEXT PRIMARY KEY, admin_id TEXT NOT NULL, action TEXT NOT NULL, target TEXT NOT NULL, at TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS ix_sessions_expires ON sessions(expires);
+CREATE INDEX IF NOT EXISTS ix_bookings_user ON bookings(user_id);
+CREATE INDEX IF NOT EXISTS ix_bookings_date ON bookings(created_at);
+CREATE INDEX IF NOT EXISTS ix_rate_limits_window ON rate_limits(window_start);

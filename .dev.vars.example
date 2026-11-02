@@ -1,0 +1,9 @@
+# Copy to .dev.vars for local wrangler dev; NEVER share this file.
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-3.5-flash-lite
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+ADMIN_SETUP_TOKEN=
+RESEND_API_KEY=
+MAIL_FROM=
+NOTIFY_EMAIL=assalomualaykum@gmail.com

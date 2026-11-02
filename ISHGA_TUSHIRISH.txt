@@ -1,0 +1,17 @@
+TURAGENT AI v4 - WINDOWS
+
+1. ZIP faylni to'liq ajrating.
+2. Python 3.11+ o'rnatilgan bo'lsin.
+3. START_WINDOWS.bat ni oching.
+4. Brauzer: http://localhost:8000
+5. Email/parol orqali ro'yxatdan o'ting. Login, turlar, bron, sevimlilar va demo to'lovni sinab ko'ring.
+6. Gemini kaliti uchun .env.example faylidan .env nusxa yarating.
+   GEMINI_API_KEY=... qiymatini kiriting, serverni Ctrl+C bilan to'xtating va qayta boshlang.
+7. Server sozlamalarini xavfsiz tekshirish: CHECK_SETUP_WINDOWS.bat
+8. Admin yaratish: .env ichida ADMIN_SETUP_TOKEN ni uzun maxfiy qiymat bilan to'ldiring,
+   keyin CREATE_ADMIN_WINDOWS.bat ni oching, /#/admin orqali kiring.
+
+MUHIM: Haqiqiy pul yechilmaydi. To'lovlar test simulyatsiyasi.
+Google OAuth uchun Google Cloud sozlamalari kerak. SMTP uchun email sozlamalari kerak.
+Lokal rejim SQLite, hostingda Docker + PostgreSQL qo'llanadi.
+.env fayli va API kalitlaringizni internetga joylamang yoki boshqalarga yubormang.

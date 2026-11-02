@@ -1,0 +1,455 @@
+{
+  "trips": [
+    {
+      "id": "silk-road",
+      "destination": "uzbekistan",
+      "city": {
+        "uz": "Samarqand · Buxoro · Xiva",
+        "en": "Samarkand · Bukhara · Khiva",
+        "ru": "Самарканд · Бухара · Хива"
+      },
+      "title": {
+        "uz": "Samarqand va Buxoro",
+        "en": "Samarkand & Bukhara",
+        "ru": "Самарканд и Бухара"
+      },
+      "desc": {
+        "uz": "Tarix, me’morchilik va milliy madaniyat uyg‘unligidagi unutilmas sayohat.",
+        "en": "An unforgettable journey through history, architecture and living culture.",
+        "ru": "Незабываемое путешествие по истории, архитектуре и культуре."
+      },
+      "image": "https://images.unsplash.com/photo-1596484552993-2b80baf36e03?auto=format&fit=crop&w=1500&q=88",
+      "days": 5,
+      "price": 450,
+      "rating": 4.9,
+      "reviews": 128,
+      "type": "culture",
+      "featured": true,
+      "discount": 15,
+      "itinerary": [
+        "Samarqand — Registon va Shohi Zinda",
+        "Buxoro — qadimiy shaharning siri",
+        "Xiva — Ichan qal’a bo‘ylab sayr"
+      ]
+    },
+    {
+      "id": "cappadocia",
+      "destination": "turkey",
+      "city": {
+        "uz": "Istanbul · Kapadokiya",
+        "en": "Istanbul · Cappadocia",
+        "ru": "Стамбул · Каппадокия"
+      },
+      "title": {
+        "uz": "Turkiya osmoni ostida",
+        "en": "Under the Turkish Sky",
+        "ru": "Под турецким небом"
+      },
+      "desc": {
+        "uz": "Rang-barang sharlar, betakror manzaralar va Istanbulning sehrli ko‘chalari.",
+        "en": "Hot air balloons, cinematic valleys and Istanbul’s timeless streets.",
+        "ru": "Воздушные шары, живописные долины и улочки Стамбула."
+      },
+      "image": "https://images.unsplash.com/photo-1570939274717-7eda259b50ed?auto=format&fit=crop&w=1500&q=88",
+      "days": 6,
+      "price": 789,
+      "rating": 4.9,
+      "reviews": 94,
+      "type": "adventure",
+      "featured": true,
+      "discount": 10,
+      "itinerary": [
+        "Istanbul — tarixiy markaz",
+        "Bosfor bo‘ylab sayr",
+        "Kapadokiya — tonggi manzaralar"
+      ]
+    },
+    {
+      "id": "dubai",
+      "destination": "uae",
+      "city": {
+        "uz": "Dubay · Abu-Dabi",
+        "en": "Dubai · Abu Dhabi",
+        "ru": "Дубай · Абу-Даби"
+      },
+      "title": {
+        "uz": "Dubay",
+        "en": "Dubai",
+        "ru": "Дубай"
+      },
+      "desc": {
+        "uz": "Zamonaviy me’morchilik, sahro safari va yorqin shahar taassurotlari.",
+        "en": "Spectacular architecture, desert landscapes and unforgettable city moments.",
+        "ru": "Современная архитектура, пустыня и яркие впечатления."
+      },
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1500&q=88",
+      "days": 5,
+      "price": 850,
+      "rating": 4.8,
+      "reviews": 112,
+      "type": "city",
+      "featured": true,
+      "discount": 0,
+      "itinerary": [
+        "Downtown Dubai va Burj Khalifa",
+        "Sahroda quyosh botishi",
+        "Abu-Dabiga ekskursiya"
+      ]
+    },
+    {
+      "id": "maldives",
+      "destination": "maldives",
+      "city": {
+        "uz": "Malé · Shimoliy Atoll",
+        "en": "Malé · North Atoll",
+        "ru": "Мале · Северный атолл"
+      },
+      "title": {
+        "uz": "Maldiv orollari",
+        "en": "Maldives",
+        "ru": "Мальдивы"
+      },
+      "desc": {
+        "uz": "Tiniq suv, oppoq qum va oromga to‘la tropik kunlar.",
+        "en": "Crystal waters, white sand and wonderfully slow island days.",
+        "ru": "Прозрачная вода, белый песок и безмятежный отдых."
+      },
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1500&q=88",
+      "days": 7,
+      "price": 1290,
+      "rating": 5,
+      "reviews": 76,
+      "type": "beach",
+      "featured": true,
+      "discount": 12,
+      "itinerary": [
+        "Orolga yetib kelish va dam olish",
+        "Suv osti olamini kashf etish",
+        "Sohilda erkin kun"
+      ]
+    },
+    {
+      "id": "paris",
+      "destination": "europe",
+      "city": {
+        "uz": "Parij · Fransiya",
+        "en": "Paris · France",
+        "ru": "Париж · Франция"
+      },
+      "title": {
+        "uz": "Parijga oshiq bo‘ling",
+        "en": "Fall in Love with Paris",
+        "ru": "Влюбитесь в Париж"
+      },
+      "desc": {
+        "uz": "San’at, nafis ko‘chalar va Yevropaning eng mashhur manzaralari.",
+        "en": "Art, elegant boulevards and Europe’s iconic sights.",
+        "ru": "Искусство, изящные бульвары и знаменитые виды Европы."
+      },
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1500&q=88",
+      "days": 5,
+      "price": 1190,
+      "rating": 4.8,
+      "reviews": 88,
+      "type": "city",
+      "featured": false,
+      "discount": 8,
+      "itinerary": [
+        "Eyfel minorasi va Sena",
+        "Luvr va shahar markazi",
+        "Monmartr bo‘ylab sayr"
+      ]
+    },
+    {
+      "id": "saudi",
+      "destination": "saudi",
+      "city": {
+        "uz": "Ar-Riyod · Al-Ula",
+        "en": "Riyadh · AlUla",
+        "ru": "Эр-Рияд · Аль-Ула"
+      },
+      "title": {
+        "uz": "Saudiya Arabistoni",
+        "en": "Saudi Arabia",
+        "ru": "Саудовская Аравия"
+      },
+      "desc": {
+        "uz": "Qadimiy meros, cho‘l landshaftlari va zamonaviy shaharlarga sayohat.",
+        "en": "Ancient heritage, desert landscapes and modern city experiences.",
+        "ru": "Древнее наследие, пустынные пейзажи и современные города."
+      },
+      "image": "https://images.unsplash.com/photo-1565330770968-0240c0046ce3?auto=format&fit=crop&w=1500&q=88",
+      "days": 8,
+      "price": 1050,
+      "rating": 4.7,
+      "reviews": 53,
+      "type": "culture",
+      "featured": false,
+      "discount": 0,
+      "itinerary": [
+        "Ar-Riyodning diqqatga sazovor joylari",
+        "Al-Ulaning qadimiy obidalari",
+        "Cho‘l landshaftlari"
+      ]
+    },
+    {
+      "id": "bukhara",
+      "destination": "uzbekistan",
+      "city": {
+        "uz": "Buxoro · O‘zbekiston",
+        "en": "Bukhara · Uzbekistan",
+        "ru": "Бухара · Узбекистан"
+      },
+      "title": {
+        "uz": "Buxoro nafasi",
+        "en": "The Soul of Bukhara",
+        "ru": "Душа Бухары"
+      },
+      "desc": {
+        "uz": "Qadimiy gumbazlar, sharqona ko‘chalar va hunarmandchilik olami.",
+        "en": "Ancient domes, enchanting alleys and exquisite local craftsmanship.",
+        "ru": "Древние купола, восточные улочки и ремесленные традиции."
+      },
+      "image": "https://images.unsplash.com/photo-1596484552993-2b80baf36e03?auto=format&fit=crop&w=1500&q=88",
+      "days": 3,
+      "price": 299,
+      "rating": 4.8,
+      "reviews": 64,
+      "type": "culture",
+      "featured": false,
+      "discount": 0,
+      "itinerary": [
+        "Lyabi Hovuz",
+        "Poi Kalon majmuasi",
+        "Mahalliy hunarmandlar"
+      ]
+    },
+    {
+      "id": "istanbul",
+      "destination": "turkey",
+      "city": {
+        "uz": "Istanbul · Turkiya",
+        "en": "Istanbul · Türkiye",
+        "ru": "Стамбул · Турция"
+      },
+      "title": {
+        "uz": "Istanbul",
+        "en": "Istanbul",
+        "ru": "Стамбул"
+      },
+      "desc": {
+        "uz": "Bosfor, rang-barang bozorlar va tarixga boy mahallalar.",
+        "en": "Bosphorus views, colorful markets and layers of remarkable history.",
+        "ru": "Босфор, красочные рынки и богатая история."
+      },
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1500&q=88",
+      "days": 6,
+      "price": 690,
+      "rating": 4.8,
+      "reviews": 72,
+      "type": "city",
+      "featured": false,
+      "discount": 5,
+      "itinerary": [
+        "Sultonahmet va Ayasofya",
+        "Bosfor kruizi",
+        "Grand Bazaar"
+      ]
+    },
+    {
+      "id": "amalfi",
+      "destination": "europe",
+      "city": {
+        "uz": "Amalfi · Italiya",
+        "en": "Amalfi · Italy",
+        "ru": "Амальфи · Италия"
+      },
+      "title": {
+        "uz": "Italiya",
+        "en": "Italy",
+        "ru": "Италия"
+      },
+      "desc": {
+        "uz": "Quyoshli sohillar, dengiz bo‘yidagi kichik shaharchalar va italyan ta’mi.",
+        "en": "Sun-kissed coastlines, seaside villages and a taste of Italy.",
+        "ru": "Солнечные берега, приморские городки и итальянская кухня."
+      },
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1500&q=88",
+      "days": 8,
+      "price": 1190,
+      "rating": 4.9,
+      "reviews": 59,
+      "type": "beach",
+      "featured": false,
+      "discount": 0,
+      "itinerary": [
+        "Neapolga tashrif",
+        "Pozitano va Amalfi",
+        "Dengiz bo‘yida dam olish"
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "id": "uzbekistan",
+      "name": {
+        "uz": "O‘zbekiston",
+        "en": "Uzbekistan",
+        "ru": "Узбекистан"
+      },
+      "count": 6,
+      "image": "https://images.unsplash.com/photo-1596484552993-2b80baf36e03?auto=format&fit=crop&w=1000&q=83"
+    },
+    {
+      "id": "turkey",
+      "name": {
+        "uz": "Turkiya",
+        "en": "Türkiye",
+        "ru": "Турция"
+      },
+      "count": 7,
+      "image": "https://images.unsplash.com/photo-1570939274717-7eda259b50ed?auto=format&fit=crop&w=1000&q=83"
+    },
+    {
+      "id": "uae",
+      "name": {
+        "uz": "BAA / Dubay",
+        "en": "UAE / Dubai",
+        "ru": "ОАЭ / Дубай"
+      },
+      "count": 5,
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=83"
+    },
+    {
+      "id": "maldives",
+      "name": {
+        "uz": "Maldiv orollari",
+        "en": "Maldives",
+        "ru": "Мальдивы"
+      },
+      "count": 4,
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1000&q=83"
+    },
+    {
+      "id": "europe",
+      "name": {
+        "uz": "Yevropa",
+        "en": "Europe",
+        "ru": "Европа"
+      },
+      "count": 8,
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1000&q=83"
+    },
+    {
+      "id": "saudi",
+      "name": {
+        "uz": "Saudiya Arabistoni",
+        "en": "Saudi Arabia",
+        "ru": "Саудовская Аравия"
+      },
+      "count": 3,
+      "image": "https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?auto=format&fit=crop&w=1000&q=83"
+    }
+  ],
+  "posts": [
+    {
+      "id": "samarkand-guide",
+      "date": "12.09.2026",
+      "read": 6,
+      "image": "https://images.unsplash.com/photo-1596484552993-2b80baf36e03?auto=format&fit=crop&w=1000&q=83",
+      "title": {
+        "uz": "Samarqandda ko‘rish kerak bo‘lgan 7 manzil",
+        "en": "7 unmissable places in Samarkand",
+        "ru": "7 мест, которые стоит посетить в Самарканде"
+      },
+      "desc": {
+        "uz": "Afsonaviy shaharni yangi nigoh bilan kashf etish uchun kichik yo‘lko‘rsatkich.",
+        "en": "A thoughtful little guide to experiencing this legendary city.",
+        "ru": "Небольшой путеводитель по легендарному городу."
+      },
+      "summary": {
+        "uz": "Afsonaviy shaharni yangi nigoh bilan kashf etish uchun kichik yo‘lko‘rsatkich.",
+        "en": "A thoughtful little guide to experiencing this legendary city.",
+        "ru": "Небольшой путеводитель по легендарному городу."
+      },
+      "body": {
+        "uz": "Afsonaviy shaharni yangi nigoh bilan kashf etish uchun kichik yo‘lko‘rsatkich. Sayohatdan avval hujjatlaringiz va tashrif shartlarini tekshiring. Aniq marshrut uchun tur paketlarini ko‘rib chiqing.",
+        "en": "A thoughtful little guide to experiencing this legendary city. Check your documents and entry requirements before traveling. Explore our tour packages for planning ideas.",
+        "ru": "Небольшой путеводитель по легендарному городу. Перед поездкой проверьте документы и условия въезда. Изучите туры для планирования маршрута."
+      }
+    },
+    {
+      "id": "packing",
+      "date": "04.09.2026",
+      "read": 4,
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1000&q=83",
+      "title": {
+        "uz": "Sayohatga chiqishdan oldin 10 maslahat",
+        "en": "10 tips before your next trip",
+        "ru": "10 советов перед путешествием"
+      },
+      "desc": {
+        "uz": "Yo‘lga yengil, xotirjam va tayyor holda chiqish uchun foydali ro‘yxat.",
+        "en": "Travel lighter, calmer and better prepared with this checklist.",
+        "ru": "Полезный список для лёгкого и спокойного путешествия."
+      },
+      "summary": {
+        "uz": "Yo‘lga yengil, xotirjam va tayyor holda chiqish uchun foydali ro‘yxat.",
+        "en": "Travel lighter, calmer and better prepared with this checklist.",
+        "ru": "Полезный список для лёгкого и спокойного путешествия."
+      },
+      "body": {
+        "uz": "Yo‘lga yengil, xotirjam va tayyor holda chiqish uchun foydali ro‘yxat. Sayohatdan avval hujjatlaringiz va tashrif shartlarini tekshiring. Aniq marshrut uchun tur paketlarini ko‘rib chiqing.",
+        "en": "Travel lighter, calmer and better prepared with this checklist. Check your documents and entry requirements before traveling. Explore our tour packages for planning ideas.",
+        "ru": "Полезный список для лёгкого и спокойного путешествия. Перед поездкой проверьте документы и условия въезда. Изучите туры для планирования маршрута."
+      }
+    },
+    {
+      "id": "maldives-guide",
+      "date": "28.08.2026",
+      "read": 5,
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1000&q=83",
+      "title": {
+        "uz": "Maldivga qachon sayohat qilish yaxshiroq?",
+        "en": "When is the best time to visit the Maldives?",
+        "ru": "Когда лучше ехать на Мальдивы?"
+      },
+      "desc": {
+        "uz": "Orol ta’tilini rejalashtirishda e’tibor beriladigan asosiy jihatlar.",
+        "en": "A few practical factors to consider when planning an island escape.",
+        "ru": "Что учитывать при планировании островного отдыха."
+      },
+      "summary": {
+        "uz": "Orol ta’tilini rejalashtirishda e’tibor beriladigan asosiy jihatlar.",
+        "en": "A few practical factors to consider when planning an island escape.",
+        "ru": "Что учитывать при планировании островного отдыха."
+      },
+      "body": {
+        "uz": "Orol ta’tilini rejalashtirishda e’tibor beriladigan asosiy jihatlar. Sayohatdan avval hujjatlaringiz va tashrif shartlarini tekshiring. Aniq marshrut uchun tur paketlarini ko‘rib chiqing.",
+        "en": "A few practical factors to consider when planning an island escape. Check your documents and entry requirements before traveling. Explore our tour packages for planning ideas.",
+        "ru": "Что учитывать при планировании островного отдыха. Перед поездкой проверьте документы и условия въезда. Изучите туры для планирования маршрута."
+      }
+    },
+    {
+      "id": "dubai-guide",
+      "date": "20.10.2026",
+      "read": 6,
+      "image": "/assets/blog-dubai.webp",
+      "title": {
+        "uz": "Dubayda nimalarni ko‘rish kerak?",
+        "en": "What to see in Dubai",
+        "ru": "Что посмотреть в Дубае"
+      },
+      "summary": {
+        "uz": "Zamonaviy me’morchilik, savdo markazlari va hayajonli cho‘l sayohatlari.",
+        "en": "Architecture, city views and exciting desert landscapes.",
+        "ru": "Архитектура, небоскрёбы и путешествия по пустыне."
+      },
+      "body": {
+        "uz": "Dubayda Burj Khalifa, Dubai Marina va tarixiy Al Fahidi mahallasini ko‘rishni tavsiya qilamiz.",
+        "en": "Consider Burj Khalifa, Dubai Marina and the historic Al Fahidi district.",
+        "ru": "Стоит посетить Бурдж-Халифа, Дубай-Марину и исторический район Аль-Фахиди."
+      }
+    }
+  ]
+}
